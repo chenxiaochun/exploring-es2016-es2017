@@ -21,6 +21,6 @@
 * Async函数
 * Shared memory and atomics
 * [Object.entries() 和 Object.values()](./Object.entries()和Object.values().md)
-* 新的字符串操作方法：padStart() 和 padEnd()
+* 字符串操作方法：padStart() 和 padEnd()
 * Object.getOwnPropertyDescriptors()
 * Trailing commas in function parameter lists and calls
