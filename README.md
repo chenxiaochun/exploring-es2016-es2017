@@ -1,6 +1,6 @@
 # Exploring ES2016 and ES2017
 
-![](http://exploringjs.com/es2016-es2017/images/cover.jpg)
+<img src="http://exploringjs.com/es2016-es2017/images/cover.jpg" height="600" />
 
 原文链接：[http://exploringjs.com/es2016-es2017/](http://exploringjs.com/es2016-es2017/)
 
