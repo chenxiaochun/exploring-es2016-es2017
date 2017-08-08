@@ -12,7 +12,7 @@ for (let [k,v] of Object.entries(obj)) {
 "two": 2
 ```
 
-如果传给它的数据是`key-value`形式的键值对，那么返回的是每一个都包含两个元素的数组列表。`Object.entries(x)`的参数必须是一个对象，并且返回的是一个可权举的、转换成字符串的`key`属性数组。
+如果传给它的数据是`key-value`形式的键值对，那么返回的是每一个都包含两个元素的数组列表。`Object.entries(x)`的参数必须是一个对象，然后返回的是一个可权举的、把`key`转换为字符串的数组列表。
 
 ```javascript
 Object.entries({ one: 1, two: 2 })
@@ -48,7 +48,7 @@ console.log(JSON.stringify([...map]));
 
 ## Object.values()
 
-它用来返回键值可枚举的、可转换成字符串类型的属性值。
+它用来返回键值可枚举、可转换成字符串类型的属性值数组。
 
 ```javascript
 Object.values({ one: 1, two: 2 })
