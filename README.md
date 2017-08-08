@@ -23,4 +23,4 @@
 * [Object.entries() 和 Object.values()](./Object.entries()和Object.values().md)
 * 字符串操作方法：padStart() 和 padEnd()
 * Object.getOwnPropertyDescriptors()
-* Trailing commas in function parameter lists and calls
+* [函数尾部逗号](./函数参数的尾部逗号.md)
