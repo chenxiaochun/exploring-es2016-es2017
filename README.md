@@ -18,7 +18,7 @@
 
 ### ECMAScript 2017
 
-* Async函数
+* [Async函数](./Async函数.md)
 * Shared memory and atomics
 * [Object.entries() 和 Object.values()](./Object.entries()和Object.values().md)
 * 字符串操作方法：padStart() 和 padEnd()
