@@ -21,6 +21,6 @@
 * [Async函数](./Async函数.md)
 * Shared memory and atomics
 * [Object.entries() 和 Object.values()](./Object.entries()和Object.values().md)
-* 字符串操作方法：padStart() 和 padEnd()
+* [字符串操作方法：padStart() 和 padEnd()](./字符串操作方法：padStart() 和 padEnd().md)
 * Object.getOwnPropertyDescriptors()
 * [函数参数列表尾部逗号](./函数参数的尾部逗号.md)
