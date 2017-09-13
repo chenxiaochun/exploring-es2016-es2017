@@ -18,7 +18,7 @@
 "xabab"
 ```
 
-两个方法的使用场景：
+两个方法的一些使用场景：
 
 * 用等宽字体显示表格式的数据
 * 给一个文件名或者 URL 添加顺序号，比如：file001.txt
@@ -67,7 +67,7 @@
 "0123456abc"
 ```
 
-如果省略了 fillString，则默认为空格。
+如果省略了 fillString 参数，则默认为空格。
 
 ```javascript
 'x'.padStart(3)
@@ -102,7 +102,7 @@ String.prototype.padStart = function (maxLength, fillString=' ') {
 
 ## String.prototype.padEnd(maxLength, fillString=' ') 
 
-`padEnd()`和`padStart()`的工作方式类似，只不过后者是用来插入前缀字符，前者用来插入后缀字符。
+`padStart()`和`padEnd()`的工作方式类似，只不过前者是用来插入前缀字符，后者用来插入后缀字符。
 
 示例1：
 ```javascript
