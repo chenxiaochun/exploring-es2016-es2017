@@ -77,7 +77,7 @@
 "  x"
 ```
 
-### 一个`padStart()`方法的简单实现
+### `padStart()`方法的简单实现
 
 ```javascript
 String.prototype.padStart = function (maxLength, fillString=' ') {
