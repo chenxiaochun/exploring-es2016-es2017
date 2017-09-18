@@ -14,7 +14,7 @@
 ### ECMAScript 2016
 
 * [Array.prototype.includes](./Array.prototype.includes.md)
-* 幂运算符
+* [幂运算符](./幂运算符.md)
 
 ### ECMAScript 2017
 
