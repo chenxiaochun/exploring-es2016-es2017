@@ -270,11 +270,11 @@ async function foo() {
 
 ## `async`在回调函数中的应用
 
-有一个需要知道的限制是，`await`操作符只会影响`async`函数的直接作用域环境。因此，你不能在`async`函数内的回调函数中使用`await`，这也会让那些基于`callback`的方法变得非常难于理解。
+有一个需要知道的限制是，`await`操作符只会影响`async`函数的直接作用域环境。因此，你不能在一个`async`方法的回调函数中直接使用`await`。
 
 ### `Array.prototype.map()`
 
-下面的示例是想下载若干url并返回其内容：
+下面的示例是根据 url 下载一些资源：
 
 ```javascript
 async function downloadContent(urls) {
@@ -286,7 +286,7 @@ async function downloadContent(urls) {
 }
 ```
 
-像上面这种在普通的箭头函数中使用`await`根本无法运行，会抛出语法错误。那我们应该怎么用，像下面这样吗：
+像上面这种在普通的箭头函数中使用`await`是无法运行的，会抛出语法错误。那我们应该怎么用，像下面这样吗？
 
 ```javascript
 async function downloadContent(urls) {
