@@ -54,9 +54,9 @@ asyncFunc()
 Error: Problem!
 ```
 
-只有操作符`await`可以放在 Async 函数里用来处理返回的 Promise 对象结果。所以`await`的处理结果随着 Promise 的状态不同而不同。
+只有操作符`await`可以放在 Async 函数里用来处理返回的 Promise 对象结果。所以`await`的处理结果会随着 Promise 的状态不同而不同。
 
-简单处理一个异步结果：
+一个简单的异步处理：
 
 ```javascript
 async function asyncFunc() {
@@ -146,7 +146,7 @@ function asyncFunc() {
 
 ## 理解`async`函数
 
-在我解释`async`函数之前，我想通过把`Promises`和`generator`结合起来，用看起来像同步代码的方式去模拟异步方式。
+在解释`async`函数之前，我想通过把`Promises`和`generator`结合起来，用看起来像同步代码的方式去模拟一下异步。
 
 对于处理获取一次性结果的异步函数，`Promises`是目前最流行的方式。下面是一个使用`fetch`方法获取文件的示例：
 
